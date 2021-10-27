@@ -1,0 +1,123 @@
+.footer {
+  display: flex;
+  margin-top: auto;
+  flex-direction: column;
+  margin-bottom: 0;
+
+  &-navigation {
+    width: 1140px;
+    margin: 0 auto;
+    height: 338px;
+    padding-top: 44px;
+    display: flex;
+    .logo {
+      display: flex;
+      &__image {
+        width: 60px;
+        height: 60px;
+        margin-right: 15px;
+      }
+      &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+
+        &-name {
+          font-size: 20px;
+          line-height: 25px;
+          font-weight: 700;
+        }
+
+        &-description {
+          font-size: 18px;
+          line-height: 25px;
+          color: #2b292d;
+          opacity: 0.6;
+        }
+      }
+    }
+
+    .about-company {
+      margin-top: 44px;
+    }
+
+    .additional-navigation {
+      margin-top: 60px;
+      margin-left: auto;
+      display: flex;
+
+      .nav-links__colum:first-child {
+        margin-right: 29px;
+      }
+
+      .nav-links__title {
+        font-weight: bold;
+        font-size: 22px;
+        line-height: 28px;
+        color: #2b292d;
+        margin: 0;
+      }
+      .nav-links_list {
+         padding: 0;
+         margin: 0;
+         margin-top: 18px;
+        &-item {
+          font-size: 18px;
+          line-height: 30px;
+          color: rgba(43, 41, 45, 0.6);
+          list-style-type: none;
+        }
+      }
+    }
+  }
+
+  &-discription {
+    line-height: 26px;
+    font-size: 18px;
+    width: 360px;
+    margin-top: 26px;
+    color: #2b292d;
+    opacity: 0.6;
+  }
+
+  .downloads {
+    margin-top: 25px;
+
+    &__app {
+      margin-right: 10px;
+    }
+  }
+
+  &__line {
+    border-top: 1px solid #2b292d;
+    width: 100%;
+    margin: 0;
+    opacity: 0.1;
+  }
+
+  &__links {
+    display: flex;
+    height: 50px;
+    width: 1140px;
+    margin: 0 auto;
+    align-items: center;
+  }
+
+  .terms {
+    line-height: 50px;
+    &__item {
+      text-decoration: none;
+      color: rgba(43, 41, 45, 0.6);
+      margin-right: 22px;
+      font-size: 14px;
+    }
+  }
+
+  .social-links {
+    margin-left: auto;
+
+    &__item {
+      margin-left: 20px;
+    }
+  }
+}
