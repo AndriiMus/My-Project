@@ -1,6 +1,6 @@
 .features {
-display: flex;
-position: relative;
+  display: flex;
+  position: relative;
 
   &__content {
     width: 1140px;
@@ -75,13 +75,18 @@ position: relative;
   }
 
   &__left-decoration {
-      position: absolute;
-      top: 258px;
+    position: absolute;
+    top: 258px;
     height: 166px;
   }
-  &__banner{
-      position: absolute;
-      right: 0;
-     
+  &__banner {
+    position: absolute;
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 399px) {
+  .features {
+    display: none;
   }
 }
