@@ -12,4 +12,4 @@
 
 ### Author
 
-- Some Name
+- Andrii Musykevych
